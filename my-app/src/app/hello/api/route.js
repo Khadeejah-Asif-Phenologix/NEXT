@@ -1,5 +1,5 @@
-import { headers } from "next/headers";
-import { NextRequest } from "next/server";
+import { headers, cookies } from "next/headers";
+// import { NextRequest } from "next/server";
 
 export async function GET(request){
 
@@ -9,7 +9,7 @@ export async function GET(request){
     const theme = request.cookies.get("theme");
     console.log(theme);
     
-    // cookies().set("ValuesPerPage","20");
+    cookies().set("ValuesPerPage","20");
 
     console.log(requestHeaders.get("Authorization"));
     console.log(headerList.get("Authorization"));
