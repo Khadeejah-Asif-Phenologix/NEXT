@@ -1,5 +1,5 @@
 import { comments } from "./data";
-import { NextRequest } from "next/server";
+// import { NextRequest } from "next/server";
 
 export async function GET(request) {
     const searchParams = request.nextUrl.searchParams;
