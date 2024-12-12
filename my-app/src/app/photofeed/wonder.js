@@ -1,5 +1,4 @@
 import photo1 from "./photos/p1.jpg";
-import photo2 from "./photos/p2.jpg";
 import photo3 from "./photos/p3.jpg";
 import photo4 from "./photos/p4.jpg";
 import photo5 from "./photos/p5.jpg";
@@ -15,13 +14,6 @@ const wonders = [
     src: photo1,
     photographer: "John Doe",
     location: "Unknown Valley",
-  },
-  {
-    id: 2,
-    name: "Serene Mountain",
-    src: photo2,
-    photographer: "Jane Smith",
-    location: "Tranquil Peaks",
   },
   {
     id: 3,
