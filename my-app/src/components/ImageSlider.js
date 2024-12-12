@@ -13,7 +13,7 @@ export const ImageSlider = () => {
     <div className="image-slider-container">
       <Slider {...settings}>
         <div>
-          <img src="https://picsum.photos/400/200" />
+          <img src="https://picsum.photos/800/300" />
         </div>
         <div>
           <img src="https://picsum.photos/400/300" />
